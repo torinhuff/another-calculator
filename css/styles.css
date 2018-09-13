@@ -1,0 +1,10 @@
+.jumbotron {
+  background: url(https://images.pexels.com/photos/220301/pexels-photo-220301.jpeg?auto=compress&cs=tinysrgb&h=350);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header  {
+  color: white;
+  font-size: 75px;
+}
