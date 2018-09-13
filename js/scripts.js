@@ -15,8 +15,8 @@ var divide = function(number1, number2) {
 };
 
 $(document).ready(function() {
-  event.preventDefault();
   $("form#calc").submit(function(event) {
+    event.preventDefault();
     var number1 = parseInt($("#calc1").val());
     var number2 = parseInt($("#calc2").val());
     var result = add(number1, number2);
